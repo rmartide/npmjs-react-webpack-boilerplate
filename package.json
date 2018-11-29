@@ -5,9 +5,10 @@
   "main": "dist/packagename.min.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --open --hot",
-    "build": "webpack --config webpack.config.prod.js --progress",
+    "build": "bili --format umd,umd-min",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bili": "bili --format umd,umd-min"
+    "webpack-build": "webpack --config webpack.config.prod.js --progress"
+
   },
   "repository": {
     "type": "git",
