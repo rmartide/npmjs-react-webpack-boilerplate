@@ -8,7 +8,6 @@
     "build": "bili --format umd,umd-min",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-build": "webpack --config webpack.config.prod.js --progress"
-
   },
   "repository": {
     "type": "git",
@@ -38,6 +37,6 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.14"
   }
 }
