@@ -1,17 +1,9 @@
 import React from 'react';
 
-class Componente extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <div>
-                <h5>Componente kek</h5>
-            </div>
-        );
-    }
+export default function Componente() {
+    return (
+        <div>
+            Yap           
+        </div>
+    )
 }
-
-export default Componente;
